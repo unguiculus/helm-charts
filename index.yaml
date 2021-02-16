@@ -1990,6 +1990,30 @@ entries:
     - https://github.com/codecentric/helm-charts/releases/download/keycloak-4.10.2/keycloak-4.10.2.tgz
     version: 4.10.2
   mailhog:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2021-02-16T18:58:04.170883876Z"
+    description: An e-mail testing tool for developers
+    digest: 27601247da5cf0099e95715efd8d79435f30c9dc68e3f05b17a617e480a3bd05
+    home: http://iankent.uk/project/mailhog/
+    icon: https://raw.githubusercontent.com/mailhog/MailHog-UI/master/assets/images/hog.png
+    keywords:
+    - mailhog
+    - mail
+    - smtp
+    - email
+    - e-mail
+    - testing
+    maintainers:
+    - email: unguiculus@gmail.com
+      name: unguiculus
+    name: mailhog
+    sources:
+    - https://github.com/mailhog/MailHog
+    type: application
+    urls:
+    - https://github.com/unguiculus/helm-charts/releases/download/mailhog-4.0.0/mailhog-4.0.0.tgz
+    version: 4.0.0
   - apiVersion: v1
     appVersion: v1.0.1
     created: "2021-02-05T10:23:41.548779326Z"
